@@ -43,7 +43,7 @@ function renderUserInfo(userInfo) {
 // 유저 정보를 숨기는 함수
 function renderLoginForm() {
   main.style.display = "none";
-  form.style.display = "block";
+  form.style.display = "grid";
   userName.textContent = "";
   userDetail.textContent = "";
 }
